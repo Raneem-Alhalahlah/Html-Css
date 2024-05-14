@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise 3</title>
+<style>
+    .static {
+        border: 4px dotted black;
+        display: inline-block;
+        padding-top: 50px;
+       padding-bottom: 50px;
+       margin: 60px ;
+       text-align: start;
+     }
+
+
+
+    .relative{ border: 4px dotted black;
+        display: inline-block;
+        padding-top: 50px;
+       padding-bottom: 50px;
+       margin: 60px  }
+
+    .absolute{border: 4px dotted black;
+        display: inline-block;
+        padding-top: 50px;
+       padding-bottom: 50px;
+       margin: 60px }
+
+
+ .p1{background-color: rgb(204, 23, 23);
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom:50px ;
+    padding-right: 50px;
+    display: inline;}
+  
+       
+.p2{
+    background-color: rgb(43, 168, 37);
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom:50px ;
+    padding-right: 50px;
+    display: inline;
+     position:static;}
+         
+.p3{
+    background-color: rgb(207, 17, 17);
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom:50px ;
+    padding-right: 50px;
+    display: inline;}
+     
+
+.p4{background-color: #cf1616;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom:50px ;
+    padding-right: 50px;
+    display: inline;} 
+
+
+.p5{ background-color: rgb(43, 168, 37);
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom:50px ;
+    padding-right: 50px;
+    display: inline;
+     position:relative;
+     left: 20px;
+     top: 20px; }      
+
+.p6{background-color: rgb(43, 168, 37);
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom:50px ;
+    padding-right: 50px;
+    display: inline;
+    position:absolute;
+   left: 50px;
+  
+    }
+
+
+</style>
+</head>
+<body>
+    
+    <h3>position static:</h3>
+    <div class="static">
+    <div class="p1">One</div>
+    <div class="p2">Two</div>
+    <div class="p3">three</div>
+    <div class="p4">four</div>
+</div>
+
+<h3>position relative:</h3>
+<div class="relative">
+<div class="p1">One</div>
+<div class="p5">Two</div>
+<div class="p3">three</div>
+<div class="p4">four</div>
+</div>
+
+<h3>position absolute:</h3>
+<div class="absolute">
+<div class="p1">One</div>
+<div class="p6">Two</div>
+<div class="p3">three</div>
+<div class="p4">four</div>
+</div>
+
+
+</body>
+</html>
